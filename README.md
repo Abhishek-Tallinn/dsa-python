@@ -1,2 +1,2 @@
 # dsa-python
-My DSA learning journey with solution in Python
+My DSA learning journey with solutions in Python
