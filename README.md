@@ -41,8 +41,13 @@ dsa-python/
    ├── strings/
    ├── arrays/
    ├── Hashmap/
-   ├── Stacks & Queues/
+   ├── Stacks and Queues/
    ├── Linked Lists/ 
    ├── Binary Search/
+   ├── Trees/
+   ├── Graphs/
+   ├── Tries/
+   ├── Greedy/
    └── Dynamic-Programming/
+
 ```
