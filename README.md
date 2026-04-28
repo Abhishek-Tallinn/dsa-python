@@ -50,4 +50,21 @@ dsa-python/
    ├── Greedy/
    └── Dynamic-Programming/
 
+## 🧩 Solution Format
+
+Every file follows this structure:
+
+```python
+# Problem: Name and Number on Leetcode
+# Difficulty: ##
+# Link: https://leetcode.com/####
+# Time Complexity: ##
+# Space Complexity: ##
+# Approach: Idea/algorithm used to solve the problem
+
+
+## 🔗 Resources
+
+- [LeetCode Profile](#) — https://leetcode.com/u/2Tm6FilaUi/
+
 ```
