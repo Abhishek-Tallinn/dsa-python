@@ -6,7 +6,7 @@
 # Approach: Use backtracking to generate all possible subsets.
 # At each step i am adding the next element to current set and appending current set to subsets. 
 # The backtracking function is called recursively with next index and current set. After the recursive call, we pop the last element to backtrack and explore other possibilities.
-
+# we can also solve it with bit manipulation by generating masks and also by decision tree backtracking where we have two choices for each element, either include it in the subset or exclude it. This will also lead to O(n*2^n) time complexity.
 from typing import List
 
 class Solution:
