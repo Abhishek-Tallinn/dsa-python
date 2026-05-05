@@ -9,7 +9,6 @@
 
 class Solution:
     def reverseVowels(self, s: str) -> str:
-
         left = 0
         right = len(s)-1
         vowels = set('aeiouAEIOU')
