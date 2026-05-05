@@ -6,7 +6,6 @@
 # Approach: Quite straightforward approach to use two pointers after writing the string in a list and then use two pointers from two ends
 # to switch when vowels are found
 
-
 class Solution:
     def reverseVowels(self, s: str) -> str:
         left = 0
