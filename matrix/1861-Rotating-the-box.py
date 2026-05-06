@@ -5,7 +5,7 @@
 # Space Complexity: O(mxn) as we make a new rotated matrix
 # Approach: We rotate the matrix and then we scan each column to find the empty spaces. As we go up from bottom of column since we are simulating gravity we keep an empty count of empty spaces seen so far.
 # if we hit a block we reset the empty spaces and if we hit a strong we swap it with the total empty spaces we have to far. since its a swap we dont add to empty space count when swapping.
-# Approach2: You can do it in O(1) space by simulating gravity and using position based substitution rather than keeping a count of empty cells and moving the rock that many cells
+# Approach2: You can do it in O(1) space by simulating gravity rightwards and using position based substitution rather than keeping a count of empty cells and moving the rock that many cells. then we return the rotated matrix.
 
 
 from typing import List
