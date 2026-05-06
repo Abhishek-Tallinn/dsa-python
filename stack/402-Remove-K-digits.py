@@ -18,13 +18,11 @@ class Solution:
                 stack.pop()
                 k -= 1
             stack.append(digit)
-
-        # if still need to remove digits
         while k > 0:
             stack.pop()
             k -= 1
 
-        # build result and remove leading zeros
+        
         print("Stack is", stack)
         result = ''.join(stack).lstrip('0')
 
