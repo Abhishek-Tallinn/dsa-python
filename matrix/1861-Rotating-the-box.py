@@ -36,3 +36,21 @@ class Solution:
                 j-=1
                 
         return rotated
+    
+        '''
+        O(1) solution without extra data structure
+        rows, cols = len(boxGrid), len(boxGrid[0])
+        for row in range(rows):
+            write = cols - 1  # rightmost position
+
+            for col in range(cols - 1, -1, -1):
+
+                if boxGrid[row][col] == '*':
+                    write = col - 1
+
+                elif boxGrid[row][col] == '#':
+                    boxGrid[row][col] = '.'
+                    boxGrid[row][write] = '#'
+                    write -= 1
+        return [list(row) for row in zip(*boxGrid[::-1])]
+        '''
