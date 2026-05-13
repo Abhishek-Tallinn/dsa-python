@@ -20,6 +20,7 @@ class Solution:
         rotated = [list(row) for row in list(zip(*boxGrid[::-1]))]
         rows,cols = cols,rows
         
+        
         for i in range(cols):
             j = rows-1
             e_count=0
