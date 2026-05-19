@@ -19,7 +19,7 @@ class Solution:
                     if node == target:
                         return steps
                     neighbours = []
-                    neighbours.extend([node-1,node+1])
+                    neighbours.extend([node-1,node+1]) 
                     neighbours.extend(graph[arr[node]])
 
                     for neighbour in neighbours:
