@@ -19,8 +19,8 @@ class Solution:
                     if node == target:
                         return steps
                     neighbours = []
-                    neighbours.extend([node-1,node+1]) 
-                    neighbours.extend(graph[arr[node]])
+                    neighbours.extend([node-1,node+1]) #generate directly
+                    neighbours.extend(graph[arr[node]]) #lazy generation only when we need it
 
                     for neighbour in neighbours:
                         if 0<=neighbour<len(arr) and neighbour not in visited:
