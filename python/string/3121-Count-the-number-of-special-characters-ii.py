@@ -9,6 +9,7 @@
 # Then we loop backwards on original string and if a lowercase character is found(which would be its last occurrence ofcours) we check if the index is less than its uppercase index in uppercase hashmap.
 # If yes then we increment count and we also add this to the seen set to avoid counting duplicate values.
 
+
 class Solution:
     def numberOfSpecialChars(self, word: str) -> int:
         first_upper = {}
