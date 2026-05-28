@@ -6,6 +6,8 @@
 # Approach: Simple approach of adding elements to stack and when an operator is found then we pop two numbers and perform operation and store result back in the stack
 # Since RPN already keeps the precedence we dont need to find precedence or care about paranthesis and we just evaluate the expression.
 
+from typing import List
+
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
         stack = []
