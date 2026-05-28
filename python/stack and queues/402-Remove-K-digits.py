@@ -7,7 +7,6 @@
 # We maintain a monotonic stack that only keep elements in increaing order till k>0. Once limit of  k is reach the rest elements are appended to the stack.
 # then we just return the stack as a array while stripping any 0's on the left.
 
-
 class Solution:
     def removeKdigits(self, num: str, k: int) -> str:
         
