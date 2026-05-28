@@ -5,8 +5,6 @@
 # Space Complexity: O(n) as we use a stack.
 # Approach: We iterate through the string and add elements to stack. every time we hit a bracket we go and resolve the string inside the bracket and add it back to stack. 
 
-
-
 class Solution:
     def decodeString(self, s: str) -> str:
         stack = []
