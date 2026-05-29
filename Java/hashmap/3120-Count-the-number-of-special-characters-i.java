@@ -7,6 +7,7 @@ Problem: Leetcode 3120 - Count the number of special characters in a string
 # Approach: We iterate through the string and add each character to a HashSet. Then we iterate through the set and check if a lowercase character has its uppercase counterpart in the set. 
 # If so, we increment the count.
 */
+
 package Java.hashmap;
 import java.util.Set;
 import java.util.HashSet;
