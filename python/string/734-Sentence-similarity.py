@@ -13,11 +13,9 @@ class Solution:
         if len(sentence1)!=len(sentence2):
             return False
         for i in range(len(sentence1)):
-            found = False
             if sentence1[i] != sentence2[i]:
-                if ([sentence1[i],sentence2[i]] in similarPairs ) or \
-                ([sentence2[i],sentence1[i]] in similarPairs):
-                    found = True
-                if not found:
+                if ([sentence1[i],sentence2[i]] not in similarPairs ) and \
+                ([sentence2[i],sentence1[i]] not in similarPairs):
+                
                     return False
         return True
