@@ -14,7 +14,7 @@ Solving Data Structures & Algorithms problems on LEETCODE as part of my transiti
 
 | Language |   Easy  |  Medium  |  Hard  |  Total  |
 |----------|---------|----------|--------|---------|
-| Python   |   82✅  |   89✅  |  11🔄  |   182   |
+| Python   |   184   |   147    |  16    |   347   |
 
 # Updated daily as problems are solved on daily basis
 
