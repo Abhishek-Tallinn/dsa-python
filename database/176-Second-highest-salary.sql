@@ -1,5 +1,5 @@
 -- Problem: Leetcode 176 - Second Highest Salary
--- Difficulty: Easy
+-- Difficulty: Medium
 -- Link: https://leetcode.com/problems/second-highest-salary/description/
 -- Approach: we use a subquery to find the second highest distinct salary in the Employee table
 -- as we want to return null if second highest salary does not exist
