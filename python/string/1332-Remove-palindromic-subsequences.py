@@ -5,7 +5,7 @@
 # Space Complexity: O(n) as we reverse slice but we can do this with two pointers easily also
 # Approach: The solution is in the realization that if a string is not already a palindrome which means it needs one operation,
 # then the answer has to be two as it only has a and b and we can just take all a together and all b together and remove them in 2 operations
-# as same character will always form a palindrome.
+# as same character will always form a palindrome. So its like a small trick question.
 
 class Solution:
     def removePalindromeSub(self, s: str) -> int:
