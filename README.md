@@ -1,5 +1,5 @@
 # dsa-python
-My DSA learning journey with solutions in Python for LEETCODE problems
+My DSA learning journey writing solutions for LEETCODE problems in Java/Python/SQL/Javascript.
 
 # 🧠 DSA Solutions
 
