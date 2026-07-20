@@ -6,7 +6,6 @@
 # Approach: We flatten the matrix, apply the normalized rotation and then make it back into grid
 # and return the grid
 
-
 from typing import List
 
 class Solution:
