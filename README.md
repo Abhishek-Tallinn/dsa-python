@@ -1,6 +1,3 @@
-# dsa-python
-My DSA learning journey writing solutions for LEETCODE problems in Java/Python/SQL/Javascript.
-
 # 🧠 DSA Solutions
 
 Solving Data Structures & Algorithms problems on LEETCODE as part of my transition into full-stack software engineering.
