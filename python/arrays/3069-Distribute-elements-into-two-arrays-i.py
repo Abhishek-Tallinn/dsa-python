@@ -1,0 +1,16 @@
+# Problem: Leetcode 3069 - Distribute elements into two arrays I
+# Difficulty: Easy
+# Link: https://leetcode.com/problems/distribute-elements-into-two-arrays-i/description/
+# Time Complexity: O(n) as we iterate over nums
+# Space Complexity: O(1)
+# Approach: Simple simulation as per the given conditions in the questions
+class Solution:
+    def resultArray(self, nums: List[int]) -> List[int]:
+        arr1= [nums[0]]
+        arr2=[nums[1]]
+        for i in range(2,len(nums)):
+            if arr1[-1] > arr2[-1]:
+                arr1.append(nums[i])
+            else:
+                arr2.append(nums[i])
+        return arr1+arr2
