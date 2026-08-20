@@ -4,6 +4,9 @@
 # Time Complexity: O(n) as we iterate over nums
 # Space Complexity: O(1)
 # Approach: Simple simulation as per the given conditions in the questions
+
+from typing import List
+
 class Solution:
     def resultArray(self, nums: List[int]) -> List[int]:
         arr1= [nums[0]]
