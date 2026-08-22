@@ -1,0 +1,29 @@
+# Problem: Leetcode 4021 - Minimum operations to make a rotated palindrome I
+# Difficulty: Medium
+# Link: https://leetcode.com/problems/minimum-operations-to-make-a-rotated-palindrome-i/description/
+# Time Complexity: O(n*len(s))
+# Space Complexity: O(1)
+# Approach - Since input is small we take all possible strings after rotation and calculate the minimum shifts needed in making it a palindrome
+# by using left and right pointers and using the shorter path to make sure characters at left and right match
+# then we record this in global minimum and return it at the end
+
+class Solution:
+    def minOperations(self, s: str) -> int:
+        mn = float('inf')
+        rotations = 0
+        while rotations < len(s):
+            left = 0
+            ops = 0
+            right = len(s)-1
+            while left<right:
+                if s[left]!=s[right]:
+                    diff = abs(ord(s[right]) - ord(s[left]))
+                    ops += min(diff, 26 - diff)
+                left+=1
+                right-=1
+
+            mn = min(mn,ops+rotations)
+            s = s[1:] + s[:1]
+        
+            rotations+=1
+        return mn
