@@ -2,7 +2,7 @@
 # Difficulty: Easy
 # Link: https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 # Time Complexity: O(n) as we iterate through the array elements
-# Space Complexity: O(n) as we use a stack to push and pop elements
+# Space Complexity: O(n) as we use a ans list
 # Approach: We do the usual inorder traversal where we traverse left and then append the value 
 # and then traverse right node in each recursive call
 
