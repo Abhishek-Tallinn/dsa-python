@@ -10,7 +10,7 @@ from collections import defaultdict
 class Solution:
     def shortestBeautifulSubstring(self, s: str, k: int) -> str:
         # hashmap based sliding window
-          if s.count('1') < k:
+        if s.count('1') < k:
             return ""
         candidate = '1'*len(s)
         ones = 0
