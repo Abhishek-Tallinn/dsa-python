@@ -6,7 +6,6 @@
 # Approach: We take each word and slice the string upto its length and compare if they are equal.
 # if yes then we increment counter
 
-
 from typing import List
 
 class Solution:
