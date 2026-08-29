@@ -6,6 +6,7 @@
 # Approach: We sort nums in reverse so min number can be found in O(1) time for alice and pop. THen we pop twice
 # to get the two minimum numbers in one move and append them in the order bob and alice and finally we return ans.
 
+
 from typing import List
 
 class Solution:
