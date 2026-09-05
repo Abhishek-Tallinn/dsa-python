@@ -26,3 +26,19 @@ class Solution:
         for i in range(len(grumpy)-minutes+1):
             mx  = max(mx, prefix[i+minutes] - prefix[i]) 
         return satisfied + mx
+
+         '''
+        rolling sum space O(1) optimization
+        satisfied = sum(c for c, g in zip(customers, grumpy) if not g)
+        
+        window = sum(customers[i] for i in range(minutes) if grumpy[i])
+        best = window
+        for i in range(minutes, len(customers)):
+            if grumpy[i]:
+                window += customers[i]
+            if grumpy[i - minutes]:
+                window -= customers[i - minutes]
+            best = max(best, window)
+        
+        return satisfied + best
+        '''
