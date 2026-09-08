@@ -3,7 +3,8 @@
 # Link: https://leetcode.com/problems/keep-multiplying-found-values-by-two/description/
 # Time Complexity: O(n) as max we would have to check all the elements in it or less
 # Space Complexity: O(1) as no extra data structure is used
-# Approach: 
+# Approach: We run a conditional while loop checking if original is in the hashmap of dictionary which gives O(1) look up and 
+# keep doubling the element
 
 from typing import List
 from collections import Counter
