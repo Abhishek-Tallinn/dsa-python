@@ -31,8 +31,8 @@ class Solution:
         no_of_digits = len(str(n))
         mask = 10**(no_of_digits-1)
         #initialize the starting commas
-        total_commas += int((n - mask+1)*comma_nos(n))
+        total_commas += (n - mask+1)*comma_nos(n)
         while mask>=1000:
-            total_commas+=int(comma_nos(mask//10)*(mask-mask//10))
+            total_commas+=comma_nos(mask//10)*(mask-mask//10)
             mask = mask//10
         return total_commas
